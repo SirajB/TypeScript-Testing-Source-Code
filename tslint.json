@@ -4,6 +4,8 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {"quotemark":[true, "single"]},
+    "rules": {"quotemark":[true, "single"],
+        "no-trailing-whitespace":[true, "ignore-comments", "ignore-blank-lines"],
+    "eofline": false},
     "rulesDirectory": []
 }
